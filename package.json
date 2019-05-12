@@ -1,5 +1,5 @@
 {
-  "name": "structured-log",
+  "name": "@diginet/structured-log",
   "version": "0.3.0",
   "description": "A structured logging framework for JavaScript, inspired by Serilog.",
   "main": "dist/structured-log.js",
@@ -13,7 +13,9 @@
     "prepublish": "npm run build"
   },
   "jest": {
-    "transform": { ".tsx?$": "ts-jest" },
+    "transform": {
+      ".tsx?$": "ts-jest"
+    },
     "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
     "moduleFileExtensions": [
       "ts",
@@ -26,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/structured-log/structured-log"
+    "url": "https://github.com/diginet-ab/structured-log"
   },
   "keywords": [
     "logging",
@@ -37,7 +39,7 @@
   "author": "structured-log Contributors",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/structured-log/structured-log/issues"
+    "url": "https://github.com/diginet-ab/structured-log/issues"
   },
   "devDependencies": {
     "@types/chai": "^3.4.34",
