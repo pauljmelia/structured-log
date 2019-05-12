@@ -1,6 +1,6 @@
 {
   "name": "@diginet/structured-log",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A structured logging framework for JavaScript, inspired by Serilog.",
   "main": "dist/structured-log.js",
   "jsnext:main": "dist/structured-log.es6.js",
