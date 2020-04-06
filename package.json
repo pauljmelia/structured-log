@@ -1,7 +1,7 @@
 {
-  "name": "@diginet/structured-log",
+  "name": "@equilogic/structured-log",
   "version": "0.3.1",
-  "description": "A structured logging framework for JavaScript, inspired by Serilog.",
+  "description": "A structured logging framework for JavaScript, inspired by Serilog. Forked from @diginet",
   "main": "dist/structured-log.js",
   "jsnext:main": "dist/structured-log.es6.js",
   "types": "dist/index.d.ts",
@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/diginet-ab/structured-log"
+    "url": "https://github.com/travelogic/structured-log"
   },
   "keywords": [
     "logging",
@@ -39,24 +39,24 @@
   "author": "structured-log Contributors",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/diginet-ab/structured-log/issues"
+    "url": "https://github.com/travelogic/structured-log/issues"
   },
   "devDependencies": {
     "@types/chai": "^3.4.34",
     "@types/es6-promise": "0.0.32",
     "@types/jest": "^23.3.1",
-    "@types/node": "^6.0.116",
+    "@types/node": "^6.14.9",
     "chai": "^3.5.0",
     "coveralls": "^2.11.15",
-    "es6-promise": "^4.0.5",
-    "es6-symbol": "^3.1.0",
+    "es6-promise": "^4.2.8",
+    "es6-symbol": "^3.1.3",
     "jest": "^23.5.0",
-    "rimraf": "^2.6.2",
+    "rimraf": "^2.7.1",
     "rollup": "^0.65.0",
     "rollup-plugin-typescript2": "^0.17.0",
     "ts-jest": "^23.1.4",
     "ts-node": "^3.3.0",
-    "tslib": "^1.8.1",
+    "tslib": "^1.11.1",
     "typemoq": "^1.1.0",
     "typescript": "^2.9.2"
   }
