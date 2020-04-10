@@ -847,6 +847,7 @@
   exports.ConsoleSink = ConsoleSink;
   exports.BatchedSink = BatchedSink;
   exports.DynamicLevelSwitch = DynamicLevelSwitch;
+  exports.MessageTemplate = MessageTemplate;
 
   Object.defineProperty(exports, '__esModule', { value: true });
 

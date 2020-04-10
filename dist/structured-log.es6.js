@@ -836,5 +836,5 @@ function configure() {
     return new LoggerConfiguration();
 }
 
-export { configure, LoggerConfiguration, LogEventLevel, Logger, ConsoleSink, BatchedSink, DynamicLevelSwitch };
+export { configure, LoggerConfiguration, LogEventLevel, Logger, ConsoleSink, BatchedSink, DynamicLevelSwitch, MessageTemplate };
 //# sourceMappingURL=structured-log.es6.js.map
